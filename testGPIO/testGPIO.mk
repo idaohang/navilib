@@ -1,0 +1,10 @@
+TARGET := TestGPIO
+
+SRC_CXXFLAGS := -g -O0 -Wall -pipe -DDEBUGMODE
+TGT_LDFLAGS := -L${TARGET_DIR}
+TGT_LDLIBS  := 
+TGT_PREREQS := 
+
+SOURCES := testGPIO.cpp
+
+SRC_INCDIRS := .. ../gpio/module
